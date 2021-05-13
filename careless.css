@@ -100,13 +100,19 @@ body {
     overflow-wrap: break-word;
 }
 
-header {
+header,
+footer {
     background: var(--accent-color-1);
     border-bottom: 1px solid var(--color-1);
     padding: 2rem 1.5rem;
-    margin: -2rem calc(0px - (50vw - 50%)) 2rem;
+    margin-left: calc(0px - (50vw - 50%));
+    margin-right: calc(0px - (50vw - 50%));
     padding-left: calc(50vw - 50%);
     padding-right: calc(50vw - 50%);
+}
+header {
+    margin-top: -2rem;
+    margin-bottom: 2rem;
 }
 
 header > *:first-child {
@@ -116,6 +122,11 @@ header > *:first-child {
 
 header > *:last-child {
     margin-bottom: 0;
+}
+
+footer {
+    margin-top: 2rem;
+    margin-bottom: -2rem;
 }
 
 h3,
