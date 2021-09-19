@@ -4,7 +4,7 @@ An almost classless CSS library that relies on simplicity and common sense.
 I love what bootstrap does. However, I hate the classes in the HTML.
 If you and your designer think about it, you don't really need any of those classes. 
 HTML has it's own behaviour. Instead of overruling that behaviour, why don't you go with it?
-Be like what my friend! 
+Be like water my friend! 
 
 ## careless.css in the wild.
 [I'm the only one that uses it](https://magalielinda.me)
