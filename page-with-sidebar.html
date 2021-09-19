@@ -11,16 +11,21 @@
 
 <body>
     <header>
-        <h1>careless.css</h1>
+        <h2>careless.css</h1>
         <p>An almost classless CSS library that relies on simplicity and common sense.</p>
-        <nav><a href="about.html">about</a> / <a href="demo.html">demo</a> /</nav>
+        <nav><a href="/">Home</a> / <a href="about.html">About</a> / <a href="demo.html">Demo</a> /</nav>
     </header>
     <main class="page-with-sidebar">
         <article>
             <h1>A page with a sidebar</h1>
             <p>On this page I am attempting to show you that having a page with a sidebar is no problem with Careless.css. 
                 The mark-up is simple: 
-                <pre><code>&lt;main class="page-with-sidebar"&gt;&lt;article&gt;&lt;article&gt;&lt;aside&gt;&lt;/aside&gt;&lt;/main&gt;</code></pre>
+                <pre>
+&lt;main class="page-with-sidebar"&gt;
+    &lt;article&gt;&lt;article&gt;
+    &lt;aside&gt;&lt;/aside&gt;
+&lt;/main&gt;
+                </pre>
             </p>
             <p>I didn't have to use <code>CSS Grid</code>, I could have also styled it by using a <code>display:inline-block</code> on the <code>article</code> and the <code>aside</code>. 
                 I might still opt to do that, because the point of this exercise is to have as little classnames as possible.</p>
@@ -30,9 +35,9 @@
             <nav>
                 <ul>
                     <li><a href="/">Home</a></li>
-                    <li><a href="/">Demo</a></li>
-                    <li><a href="/" class="active">This page</a></li>
-                    <li><a href="/">About</a></li>
+                    <li><a href="/demo.html">Demo</a></li>
+                    <li><a href="/page-with-sidebar.html" class="active">This page</a></li>
+                    <li><a href="/about.html">About</a></li>
                 </ul>
             </nav
         </aside>
