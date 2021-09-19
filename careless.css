@@ -17,6 +17,8 @@ But couldn't get on board with some decisions. SO i made my own.
     --font-size-reg: 16px;
     --font-size-s: 14px;
     --font-size-xs: 12px;
+    --sidebar-width: 200px;
+    --grid-gap: 24px;
 }
 
 * {
@@ -157,6 +159,11 @@ blockquote {
     background: var(--accent-color-1);
     border-left: 10px solid black;
 }
+pre {
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    text-align: justify;
+  }
 code {
     background: var(--color-1);
     padding: 5px;
@@ -171,6 +178,8 @@ svg {
     margin-top: 0px;
     margin-bottom: 2.5rem;
 }
+
+/* Table */
 
 .table-grid {
     display: grid;
@@ -199,6 +208,13 @@ svg {
     padding-top: 20px;
     padding-bottom: 20px;
     border-top: var(--color-1) 1px solid;
+}
+
+/* Page with Sidebar */
+.page-with-sidebar {
+    display: grid;
+    grid-template-columns: 1fr var(--sidebar-width);
+    grid-gap: var(--grid-gap);
 }
 
 /* Cookie banner */
@@ -286,5 +302,9 @@ svg {
     .client,
     .project {
         border-bottom: none;
+    }
+
+    .page-with-sidebar {
+        display: block;
     }
 }
