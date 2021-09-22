@@ -14,4 +14,4 @@ careless.css is only 4kb in size.
 
 ## short list to come
 - Table
-- Toggle
+- <s>Toggle</s>
