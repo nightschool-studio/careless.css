@@ -13,5 +13,6 @@ careless.css is only 4kb in size.
 [I'm the only one that uses it](https://magalielinda.me)
 
 ## short list to come
-- Table
+- Inputs and button
+- Tables
 - <s>Toggle</s>
