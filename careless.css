@@ -179,6 +179,14 @@ svg {
     margin-bottom: 2.5rem;
 }
 
+summary {
+    outline: none;
+}
+
+details p {
+    padding: 16px;
+}
+
 
 /* Page with Sidebar */
 .page-with-sidebar {
